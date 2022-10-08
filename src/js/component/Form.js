@@ -1,8 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Form = ({inputText, setInputText, todos, setTodos, setStatus}) => {
 
-    
+    // const [inputText, setInputText] = useState();
+    // const [todos, setTodos] = useState();
+    // const [status, setStatus] = useState();
+
 
     const inputTextHandler = (e) => {
         setInputText(e.target.value);

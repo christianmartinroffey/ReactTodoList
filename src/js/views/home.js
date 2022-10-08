@@ -84,7 +84,7 @@ const filterHandler = () => {
             </h1>
             <Form inputText= {inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} setStatus={setStatus} />
             <TodoStats todos={todos} setTodos ={setTodos}/>
-            {/* <TodoList todos={todos} setTodos ={setTodos} filteredTodos={filteredTodos}/> */}
+            <TodoList todos={todos} setTodos ={setTodos} filteredTodos={filteredTodos}/>
         </div>
       </header>
     </div>
